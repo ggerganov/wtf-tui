@@ -1,0 +1,10 @@
+[submodule "third-party/imtui"]
+	path = third-party/imtui
+	url = https://github.com/ggerganov/imtui
+[submodule "third-party/yaml-cpp"]
+	path = third-party/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp
+[submodule "third-party/ImGuiColorTextEdit/ImGuiColorTextEdit"]
+	path = third-party/ImGuiColorTextEdit/ImGuiColorTextEdit
+	url = https://github.com/ggerganov/ImGuiColorTextEdit
+	branch = imtui

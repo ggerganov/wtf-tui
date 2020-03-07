@@ -1,0 +1,10 @@
+compile_commands.json
+build
+build-*
+
+*.snap
+
+.DS_Store
+.vscode
+.cquery_cache
+*.code-workspace
