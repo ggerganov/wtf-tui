@@ -3,7 +3,7 @@
   version: '0.1'
   summary: Text-based UI for the WTF terminal dashboard
   description: |
-    Interactive WTF configuration editor in the terminal
+    Interactive WTF configuration editor in the terminal.
   license: MIT
 
   base: core18
@@ -19,14 +19,11 @@
         - g++
         - make
         - libncurses5-dev
-        - libcurl4-openssl-dev
       stage-packages:
         - libncurses5
-        - libcurl4
-        - xdg-utils
 
   apps:
-    wtfutils-tui:
-      command: bin/wtfutils-tui
+    wtfutil-tui:
+      command: bin/wtfutil-tui
       plugs:
         - home
