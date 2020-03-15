@@ -4,7 +4,6 @@
   summary: Text-based UI for the WTF terminal dashboard
   description: |
     Interactive WTF configuration editor in the terminal.
-  license: MIT
 
   base: core18
   grade: stable
