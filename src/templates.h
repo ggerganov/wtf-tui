@@ -83,7 +83,7 @@ position:
   left: 0
   width: 58
   height: 21
-apiKey: <placeholder>
+apiKey: [PLACEHOLDER]
 baseURL: ""
 customQueries:
   openIssues:
@@ -110,7 +110,7 @@ username: ggerganov
         "azuredevops",
         "https://wtfutil.com/modules/azure_devops/",
         R"(
-apiToken: "<placeholder>"
+apiToken: "[PLACEHOLDER]"
 enabled: true
 labelColor: "lightblue"
 maxRows: 3
@@ -129,7 +129,7 @@ refreshInterval: 300
         "bamboohr",
         "https://wtfutil.com/modules/bamboohr/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 enabled: true
 position:
   top: 0
@@ -145,7 +145,7 @@ subdomain: "testco"
         "buildkite",
         "https://wtfutil.com/modules/buildkite/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 enabled: true
 organizationSlug: "acme-corp"
 refreshInterval: 60
@@ -170,7 +170,7 @@ pipelines:
         "circleci",
         "https://wtfutil.com/modules/circleci/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 enabled: true
 position:
   top: 4
@@ -230,8 +230,8 @@ refreshInterval: 30
         "datadog",
         "https://wtfutil.com/modules/datadog/",
         R"(
-apiKey: "<yourapikey>"
-applicationKey: "<yourapplicationkey>"
+apiKey: "[PLACEHOLDER]"
+applicationKey: "[PLACEHOLDER]"
 enabled: true
 monitors:
   tags:
@@ -283,7 +283,7 @@ type: "digitalclock"
         "digitalocean",
         "https://wtfutil.com/modules/digitalocean/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 enabled: true
 position:
   top: 4
@@ -398,7 +398,7 @@ repositories:
         "github",
         "https://wtfutil.com/modules/github/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 baseURL: ""
 customQueries:
   othersPRs:
@@ -425,7 +425,7 @@ username: "wtfutil"
         "gitlab",
         "https://wtfutil.com/modules/gitlab/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 enabled: true
 position:
   top: 2
@@ -444,7 +444,7 @@ username: "wtfutil"
         "gitter",
         "https://wtfutil.com/modules/gitter/",
         R"(
-apiToken: "<placeholder>"
+apiToken: "[PLACEHOLDER]"
 enabled: true
 numberOfMessages: 10
 position:
@@ -480,7 +480,7 @@ refreshInterval: 900
 accounts:
 - test@example.com
 - pwned@gmail.com
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 colors:
   ok: "green"
   pwned: "red"
@@ -533,7 +533,7 @@ refreshInterval: 150
         "jenkins",
         "https://wtfutil.com/modules/jenkins/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 enabled: true
 position:
   top: 2
@@ -553,7 +553,7 @@ verifyServerCertificate: true
         "jira",
         "https://wtfutil.com/modules/jira/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 colors:
   rows:
     even: "lightblue"
@@ -634,7 +634,7 @@ repositories:
         "newrelic",
         "https://wtfutil.com/modules/newrelic/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 applicationIDs:
   - 10549735
   - 499785
@@ -653,7 +653,7 @@ refreshInterval: 900
         "opsgenie",
         "https://wtfutil.com/modules/opsgenie/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 displayEmpty: false
 enabled: true
 position:
@@ -672,7 +672,7 @@ scheduleIdentifierType: "id"
         "pagerduty",
         "https://wtfutil.com/modules/pagerduty/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 enabled: true
 escalationFilter:
 - "client-eng"
@@ -760,7 +760,7 @@ refreshInterval: 3600
         "https://wtfutil.com/modules/football/",
         R"(
 enabled: true
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 league: "PL"
 favTeam: "Liverpool FC"
 standingCount: 5
@@ -869,7 +869,7 @@ refreshInterval: 3600
         "todoist",
         "https://wtfutil.com/modules/todoist/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 enabled: true
 position:
   top: 0
@@ -888,7 +888,7 @@ refreshInterval: 3600
         R"(
 enabled: true
 host: "192.168.1.5"
-password: "<placeholder>"
+password: "[PLACEHOLDER]"
 position:
   top: 4
   left: 3
@@ -903,7 +903,7 @@ username: "transmission"
         "travisci",
         "https://wtfutil.com/modules/travisci/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 enabled: true
 compact: true
 limit: 8
@@ -922,8 +922,8 @@ refreshInterval: 900
         "trello",
         "https://wtfutil.com/modules/trello/",
         R"(
-accessToken: "<placeholder>"
-apiKey: "<placeholder>"
+accessToken: "[PLACEHOLDER]"
+apiKey: "[PLACEHOLDER]"
 board: Main
 enabled: true
 list: "Todo"
@@ -941,8 +941,8 @@ username: myname
         "twitterstats",
         "https://wtfutil.com/modules/twitterstats/",
         R"(
-consumerKey: "<placeholder>"
-consumerSecret: "<placeholder>"
+consumerKey: "[PLACEHOLDER]"
+consumerSecret: "[PLACEHOLDER]"
 enabled: true
 position:
   top: 0
@@ -960,7 +960,7 @@ screenNames:
         "twitter",
         "https://wtfutil.com/modules/twittertweets/",
         R"(
-bearerToken: "<placeholder>"
+bearerToken: "[PLACEHOLDER]"
 count: 5
 enabled: true
 position:
@@ -977,8 +977,8 @@ screenName: "wtfutil"
         "victorops",
         "https://wtfutil.com/modules/victorops/",
         R"(
-apiID: a3c5dd63
-apiKey: "<placeholder>"
+apiID: [PLACEHOLDER]
+apiKey: "[PLACEHOLDER]"
 enabled: true
 position:
   top: 0
@@ -1027,7 +1027,7 @@ language: "en"
         "weather",
         "https://wtfutil.com/modules/weather/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 # From http://openweathermap.org/help/city_list.txt
 cityids:
 - 6173331
@@ -1052,7 +1052,7 @@ tempUnit: "C"
         "zendesk",
         "https://wtfutil.com/modules/zendesk/",
         R"(
-apiKey: "<placeholder>"
+apiKey: "[PLACEHOLDER]"
 enabled: true
 position:
   top: 0
