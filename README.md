@@ -53,7 +53,7 @@ make
 Emscripten port: [wtf-tui.ggerganov.com](https://wtf-tui.ggerganov.com/) *(not suitable for mobile devices)*
 
 [changelog]: ./CHANGELOG.md
-[changelog-badge]: https://img.shields.io/badge/changelog-wtf-tui%20v0.1-dummy
+[changelog-badge]: https://img.shields.io/badge/changelog-wtftui%20v0.1-dummy
 [license]: ./LICENSE
 [version-badge]: https://img.shields.io/badge/version-0.1-blue.svg
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
