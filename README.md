@@ -35,7 +35,7 @@ mkdir build && cd build
 cmake ..
 make
 
-./bin/wtfutil-tui
+./bin/wtfutil-tui --help
 ```
 
 ### Emscripten:
