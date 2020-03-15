@@ -23,6 +23,10 @@
 
 #include "imtui/imtui-impl-ncurses.h"
 
+#include <unistd.h>
+#include <sys/types.h>
+#include <pwd.h>
+
 #endif
 
 #include <map>
@@ -225,6 +229,13 @@ wtf:
   refreshInterval: 1
   openFileUtil: "open"
         )";
+
+#ifndef __EMSCRIPTEN__
+        struct passwd *pw = getpwuid(getuid());
+        fnameInput = pw->pw_dir;
+        fnameInput += "/.config/wtf/config.yml";
+        fnameOutput = fnameInput;
+#endif
     }
 
     bool hasError = false;
@@ -241,11 +252,7 @@ wtf:
     std::array<int, kMaxColumns> cols;
     std::array<int, kMaxRows> rows;
 
-#ifdef __EMSCRIPTEN__
     std::string fnameInput = "./config.yml";
-#else
-    std::string fnameInput = std::string(getenv("HOME")) + "/.config/wtf/config.yml";
-#endif
     std::string fnameOutput = fnameInput;
 
     void clear() {
