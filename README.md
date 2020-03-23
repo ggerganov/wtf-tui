@@ -14,6 +14,10 @@ Easily create [WTF](https://wtfutil.com) configurations in your terminal
 
 This is a simple tool that facilitates creating YAML configurations for the [WTF terminal dashboard](https://wtfutil.com). The text-based UI is implemented with [ImTui](https://github.com/ggerganov/imtui). All of the originally supported WTF modules are available for configuring. Also, the UI allows easy positioning and resizing of the created modules.
 
+## Live demo in the browser
+
+Emscripten port: [wtf-tui.ggerganov.com](https://wtf-tui.ggerganov.com/) *(not suitable for mobile devices)*
+
 ## Installing
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/wtf-tui)
@@ -47,10 +51,6 @@ mkdir build && cd build
 emconfigure cmake ..
 make
 ```
-
-## Live demo in the browser
-
-Emscripten port: [wtf-tui.ggerganov.com](https://wtf-tui.ggerganov.com/) *(not suitable for mobile devices)*
 
 [changelog]: ./CHANGELOG.md
 [changelog-badge]: https://img.shields.io/badge/changelog-wtftui%20v0.1-dummy
