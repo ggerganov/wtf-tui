@@ -1,0 +1,34 @@
+
+  name: wtf-tui
+  version: '0.1'
+  summary: Text-based UI for the WTF terminal dashboard
+  description: |
+    Interactive WTF configuration editor in the terminal.
+
+  base: core18
+  grade: stable
+  confinement: strict
+
+  parts:
+    wtf-tui:
+      source: https://github.com/ggerganov/wtf-tui
+      source-type: git
+      plugin: cmake
+      build-packages:
+        - g++
+        - make
+        - libncurses5-dev
+      stage-packages:
+        - libncurses5
+
+  plugs:
+    config-wtf:
+      interface: personal-files
+      write:
+      - $HOME/.config/wtf/config.yml
+
+  apps:
+    wtfutil-tui:
+      command: bin/wtfutil-tui
+      plugs:
+        - config-wtf
