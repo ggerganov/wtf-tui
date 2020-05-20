@@ -22,7 +22,7 @@
         - libncurses5
 
   plugs:
-    config-wtf:
+    dot-config-wtf-config-yml:
       interface: personal-files
       write:
       - $HOME/.config/wtf/config.yml
@@ -31,4 +31,4 @@
     wtfutil-tui:
       command: bin/wtfutil-tui
       plugs:
-        - config-wtf
+      - dot-config-wtf-config-yml
