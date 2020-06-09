@@ -37,10 +37,6 @@
 #include <iostream>
 #include <chrono>
 
-#ifdef __EMSCRIPTEN__
-//#define MY_DEBUG
-#endif
-
 #ifdef MY_DEBUG
 #define my_printf(...) printf(__VA_ARGS__)
 #else
