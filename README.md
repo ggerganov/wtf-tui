@@ -2,7 +2,6 @@
 
 [![Actions Status](https://github.com/ggerganov/wtf-tui/workflows/CI/badge.svg)](https://github.com/ggerganov/wtf-tui/actions)
 [![wtf-tui on Snapcraft](https://snapcraft.io/wtf-tui/badge.svg)](https://snapcraft.io/wtf-tui)
-[![Snap Status](https://build.snapcraft.io/badge/ggerganov/wtf-tui.svg)](https://build.snapcraft.io/user/ggerganov/wtf-tui)
 [![wtf-tui v0.1 badge][changelog-badge]][changelog]
 [![MIT License Badge][license-badge]][license]
 
